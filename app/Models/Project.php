@@ -20,5 +20,5 @@ class Project extends Model
         return $this->belongsToMany(Technology::class);
     }
 
-    protected $fillable = ['title', 'content', 'type_id'];
+    protected $fillable = ['title', 'content', 'type_id', 'slug'];
 }
